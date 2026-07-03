@@ -1,0 +1,56 @@
+---
+layout: home
+
+hero:
+  name: "CLEARANCE"
+  text: "Permissões, papéis e autorização contextual para Laravel"
+  tagline: Um painel de administração Livewire 4 + Flux UI pronto a usar sobre o spatie/laravel-permission. Autorização contextual, papéis-teto, delegação granular - instalável com um único comando artisan, sem qualquer alteração às tabelas do Spatie.
+  image:
+    light: /clearance-mark-horizontal.svg
+    dark: /clearance-mark-horizontal.svg
+    alt: Clearance
+  actions:
+    - theme: brand
+      text: Começar
+      link: /pt/guide/introduction
+    - theme: alt
+      text: Ver no GitHub
+      link: https://github.com/rivalex/clearance
+
+features:
+  - icon: 🖥️
+    title: Painel de administração completo
+    details: Permissões, Papéis, Guards, Configurações e um Painel de Controle - use as rotas pré-construídas ou incorpore cada componente Livewire individualmente em qualquer ponto da sua aplicação.
+
+  - icon: 🎯
+    title: Autorização contextual
+    details: "Conceda um papel ou permissão delimitado a uma instância de modelo específica - uma Store, um Tenant, um Project - com $user->canIn(), diretivas Blade @canin/@hasrolein, e um ContextService."
+
+  - icon: 🏔️
+    title: Papéis-teto
+    details: Um papel pode declarar um papel principal cujo conjunto de permissões atua como limite superior. Um papel filho nunca pode exceder o seu papel principal, aplicado automaticamente a cada gravação.
+
+  - icon: 🔑
+    title: Permissões de escrita granulares
+    details: Uma permissão delegável clearance-{section}-write por secção do painel, para que possa atribuir "gerir papéis" sem também atribuir "gerir configurações."
+
+  - icon: 👑
+    title: Super Admin, opcional
+    details: Um bypass global e opcional da Gate, deteção de aliases para papéis do tipo administrador já existentes, e promoção segura e não destrutiva de um papel existente.
+
+  - icon: 🗄️
+    title: Nunca toca nas tabelas do Spatie
+    details: O Clearance possui 6 tabelas clr_* dedicadas e nunca altera roles, permissions, model_has_roles, model_has_permissions ou role_has_permissions.
+
+  - icon: 🛡️
+    title: Reforçado em segurança
+    details: Tetos contra escalonamento de privilégios em todos os caminhos de concessão de permissões, substituições de contexto com autoridade de negação, um sanitizador de SVG com lista de permissões, e um namespace clearance-* protegido.
+
+  - icon: 👥
+    title: Módulo de Utilizadores (opcional)
+    details: Atribua papéis globalmente ou a um contexto específico, mais substituições de permissão por contexto, a partir de um painel por utilizador.
+
+  - icon: 🌐
+    title: 9 idiomas incluídos
+    details: "ar, en, es, fr, hi, it, pt, ru, zh - testados quanto à paridade de chaves a cada alteração."
+---
