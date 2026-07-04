@@ -6,8 +6,8 @@ hero:
   text: "Permessi, ruoli e autorizzazione contestuale per Laravel"
   tagline: Un pannello di amministrazione Livewire 4 + Flux UI pronto all'uso, costruito sopra spatie/laravel-permission. Autorizzazione contestuale, ruoli ceiling, delega granulare - installabile con un solo comando artisan, zero modifiche alle tabelle di Spatie.
   image:
-    light: /clearance-mark-horizontal.svg
-    dark: /clearance-mark-horizontal.svg
+    light: /clearance-mark.svg
+    dark: /clearance-mark.svg
     alt: Clearance
   actions:
     - theme: brand
@@ -53,4 +53,8 @@ features:
   - icon: 🌐
     title: 9 lingue incluse
     details: "ar, en, es, fr, hi, it, pt, ru, zh - testate per parità di chiavi ad ogni modifica."
+
+  - icon: 🧪
+    title: 269 test, 848 asserzioni
+    details: Una suite Pest che copre comandi, servizi, componenti Livewire, autorizzazione contestuale, ruoli con ceiling e parità i18n su tutte le 9 lingue.
 ---

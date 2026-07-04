@@ -6,8 +6,8 @@ hero:
   text: "Permisos, roles y autorización contextual para Laravel"
   tagline: Un panel de administración Livewire 4 + Flux UI listo para usar sobre spatie/laravel-permission. Autorización contextual, roles techo, delegación granular - instalable con un solo comando artisan, sin cambios en las tablas de Spatie.
   image:
-    light: /clearance-mark-horizontal.svg
-    dark: /clearance-mark-horizontal.svg
+    light: /clearance-mark.svg
+    dark: /clearance-mark.svg
     alt: Clearance
   actions:
     - theme: brand
@@ -53,4 +53,8 @@ features:
   - icon: 🌐
     title: 9 idiomas incluidos
     details: "ar, en, es, fr, hi, it, pt, ru, zh - con paridad de claves verificada en cada cambio."
+
+  - icon: 🧪
+    title: 269 tests, 848 aserciones
+    details: Una suite Pest que cubre comandos, servicios, componentes Livewire, autorización contextual, roles con ceiling y paridad i18n en los 9 idiomas.
 ---

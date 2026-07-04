@@ -6,8 +6,8 @@ hero:
   text: "面向 Laravel 的权限、角色与上下文授权"
   tagline: 一个基于 spatie/laravel-permission 构建、开箱即用的 Livewire 4 + Flux UI 管理面板。上下文授权、上限角色（ceiling roles）、精细化的权限委派——通过一条 artisan 命令即可安装，且不对 Spatie 的数据表做任何改动。
   image:
-    light: /clearance-mark-horizontal.svg
-    dark: /clearance-mark-horizontal.svg
+    light: /clearance-mark.svg
+    dark: /clearance-mark.svg
     alt: Clearance
   actions:
     - theme: brand
@@ -53,4 +53,8 @@ features:
   - icon: 🌐
     title: 内置 9 种语言
     details: "ar、en、es、fr、hi、it、pt、ru、zh——每次变更都经过键一致性（key-parity）测试。"
+
+  - icon: 🧪
+    title: 269 个测试，848 个断言
+    details: 一套 Pest 测试套件，覆盖命令、服务、Livewire 组件、上下文授权、上限角色，以及全部 9 种语言的 i18n 键一致性。
 ---

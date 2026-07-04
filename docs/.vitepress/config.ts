@@ -874,8 +874,8 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/clearance-mark.svg',
-    siteTitle: 'CLEARANCE',
+    logo: '/clearance-mark-horizontal.svg',
+    siteTitle: '',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/rivalex/clearance' },

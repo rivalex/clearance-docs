@@ -6,8 +6,8 @@ hero:
   text: "الصلاحيات والأدوار والتفويض السياقي لـ Laravel"
   tagline: لوحة تحكم Livewire 4 + Flux UI جاهزة للتركيب فوق spatie/laravel-permission. تفويض سياقي، أدوار سقفية (ceiling roles)، تفويض دقيق - قابلة للتثبيت بأمر artisan واحد، دون أي تغيير على جداول Spatie.
   image:
-    light: /clearance-mark-horizontal.svg
-    dark: /clearance-mark-horizontal.svg
+    light: /clearance-mark.svg
+    dark: /clearance-mark.svg
     alt: Clearance
   actions:
     - theme: brand
@@ -53,4 +53,8 @@ features:
   - icon: 🌐
     title: 9 لغات مرفقة
     details: "ar، en، es، fr، hi، it، pt، ru، zh - مُختبرة لتطابق المفاتيح عند كل تغيير."
+
+  - icon: 🧪
+    title: 269 اختباراً، 848 تأكيداً (assertions)
+    details: مجموعة اختبارات Pest تغطي الأوامر والخدمات ومكونات Livewire والتفويض السياقي والأدوار السقفية وتطابق i18n عبر اللغات التسع جميعها.
 ---

@@ -18,6 +18,7 @@ Clearance gives you:
 - **Extensibility hooks** - `HasClearance` trait, `HasPermissionGroups` trait, `ClearanceContextable` contract, reusable Blade components.
 - **SVG sanitization** - every user-supplied icon passes through an allow-list sanitizer before storage and at render time.
 - **Security-hardened** - privilege-escalation ceilings on every permission-granting path, deny-authoritative context overrides, protected `clearance-*` namespace. See [Security](/en/guide/security).
+- **269 tests, 848 assertions** - a Pest suite covering commands, services, Livewire components, contextual authorization, ceiling roles, and i18n key-parity.
 
 ## Relationship to spatie/laravel-permission
 

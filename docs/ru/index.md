@@ -6,8 +6,8 @@ hero:
   text: "Разрешения, роли и контекстная авторизация для Laravel"
   tagline: Готовая к использованию панель администратора на Livewire 4 + Flux UI поверх spatie/laravel-permission. Контекстная авторизация, ceiling-роли, точечное делегирование прав - устанавливается одной командой artisan, без каких-либо изменений в таблицах Spatie.
   image:
-    light: /clearance-mark-horizontal.svg
-    dark: /clearance-mark-horizontal.svg
+    light: /clearance-mark.svg
+    dark: /clearance-mark.svg
     alt: Clearance
   actions:
     - theme: brand
@@ -53,4 +53,8 @@ features:
   - icon: 🌐
     title: 9 языков в комплекте
     details: "ar, en, es, fr, hi, it, pt, ru, zh - паритет ключей проверяется тестом при каждом изменении."
+
+  - icon: 🧪
+    title: 269 тестов, 848 проверок
+    details: Набор тестов Pest, охватывающий команды, сервисы, компоненты Livewire, контекстную авторизацию, роли с ceiling и паритет i18n во всех 9 языках.
 ---

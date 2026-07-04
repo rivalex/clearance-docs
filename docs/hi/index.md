@@ -6,8 +6,8 @@ hero:
   text: "Laravel के लिए अनुमतियाँ, भूमिकाएं और प्रासंगिक प्राधिकरण"
   tagline: spatie/laravel-permission के ऊपर एक drop-in Livewire 4 + Flux UI एडमिन पैनल। प्रासंगिक प्राधिकरण, ceiling भूमिकाएं, सूक्ष्म-स्तरीय delegation - एक artisan कमांड से इंस्टॉल करने योग्य, Spatie की टेबल्स में शून्य बदलाव के साथ।
   image:
-    light: /clearance-mark-horizontal.svg
-    dark: /clearance-mark-horizontal.svg
+    light: /clearance-mark.svg
+    dark: /clearance-mark.svg
     alt: Clearance
   actions:
     - theme: brand
@@ -53,4 +53,8 @@ features:
   - icon: 🌐
     title: 9 बंडल की गई भाषाएं
     details: "ar, en, es, fr, hi, it, pt, ru, zh - हर बदलाव पर key-parity टेस्ट किए गए।"
+
+  - icon: 🧪
+    title: 269 टेस्ट, 848 assertions
+    details: एक Pest टेस्ट सूट जो commands, services, Livewire कॉम्पोनेंट्स, contextual authorization, ceiling roles, और सभी 9 भाषाओं में i18n key-parity को कवर करता है।
 ---
