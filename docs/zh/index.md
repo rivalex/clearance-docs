@@ -55,6 +55,6 @@ features:
     details: "ar、en、es、fr、hi、it、pt、ru、zh——每次变更都经过键一致性（key-parity）测试。"
 
   - icon: 🧪
-    title: 269 个测试，848 个断言
+    title: 370 个测试，1054 个断言
     details: 一套 Pest 测试套件，覆盖命令、服务、Livewire 组件、上下文授权、上限角色，以及全部 9 种语言的 i18n 键一致性。
 ---

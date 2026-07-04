@@ -55,6 +55,6 @@ features:
     details: "ar, en, es, fr, hi, it, pt, ru, zh - con paridad de claves verificada en cada cambio."
 
   - icon: 🧪
-    title: 269 tests, 848 aserciones
+    title: 370 tests, 1054 aserciones
     details: Una suite Pest que cubre comandos, servicios, componentes Livewire, autorización contextual, roles con ceiling y paridad i18n en los 9 idiomas.
 ---
